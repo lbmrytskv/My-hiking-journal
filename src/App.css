@@ -1,38 +1,114 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  background-color: #E5E5E5;
+
+}
+
 .App {
+  font-weight: 300;
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color:rgb(90, 96, 102);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 7px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: 'Playfair Display', serif;
+}
+.navbar-text {
   color: white;
+  display: inline;
+  align-items: center;
+  padding-left: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.main-container {
+  height: 740px;
+  width: 550px;
+  margin: auto;
+  background-color: #FFFFFF;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  display: flex;
+  gap:19px;
+  margin: 36px 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card-image {
+  width: 125px;
+  height:168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.location-description {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+
+.item-tittle {
+  margin:0;
+  padding: 0;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #2B283A;
+}
+
+.image-location {
+  width: 7px;
+height: 10px;
+object-fit: cover;
+}
+
+.item-location {
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #2B283A;
+}
+
+.item-google {
+  font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+}
+
+.item-dates {
+display: flex;
+align-items: center;
+margin-bottom: 9px;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+color: #2B283A;
+}
+
+.item-description {
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #2B283A;
+}
+
+section {
+  
 }

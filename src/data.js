@@ -23,7 +23,7 @@ export default [
     },
     {
         id: 3,
-        title: "Szpiglasowy Wierch",
+        title: "Szpigłasowy Wierch",
         location: "Poland",
         googleMapsUrl: "https://goo.gl/maps/NT8CFdfWJf31qVkD7",
         Date: "25 July",

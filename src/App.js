@@ -2,10 +2,12 @@
 import './App.css';
 import data from "./data";
 import Card from './Components/Card';
-import Header from './Components/Navbar';
+import Navbar from './Components/Navbar';
 
 
 export default function App() {
+  /*used a map() method so than we can pass an array of objects 
+  from data.js to our Card components as props */
   const cards = data.map(item => {
   return (
     <Card
@@ -14,13 +16,11 @@ export default function App() {
     />
   )
 })
-
 return (
   <div className = "main-container">
-    <Header />
+    <Navbar />
     {cards}
   </div>
 )
 }
-
 
